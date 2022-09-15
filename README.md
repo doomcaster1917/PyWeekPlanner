@@ -1,4 +1,4 @@
-#PyWeekPlaner
+# PyWeekPlaner 
 
 Just little and cosy tool that will draw you picture or some pictures which show your events on calendar with exactly on needed hours in a week view.
 You can choose both 10 hours format like this below: 
@@ -10,13 +10,13 @@ Or your choice can be 24 hours like this:
 
 Or you can set custom start-hour and finish-hour.
 
-#Autosize
+### Autosize
 Package supports dynamical size of words in phrases. So the size depends of length of phrase(description of event) and a phrase splits on lines. But remember: the more length of phrase the less this phrase looks especially it refers to 24-hors mode.
 
-#Localization
+### Localization
 The standard font supports only english language. Actually package supports russian language as argument of class CalendarDrawer - lang_ru
 
-#How to use?
+### How to use?
 ```
 from PyWeekPlanner import CalendarDrawer
 calendar = CalendarDrawer(YOUR SETTINGS OR EMPTY)
@@ -43,7 +43,7 @@ data_set_en = [
         }
 ```
 
-#Format package returns
+### Format package returns
 You can take a pictures in 2 formats: saved in folder 'png' or BytesIO.
 
 Made pictures appears in folder /Results with names 'result{0 and etc...}.png'
