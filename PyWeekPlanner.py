@@ -12,7 +12,7 @@ class CalendarDrawer:
 
 
     def __init__(self, min_hour_and_max_hour: list = None, lang_ru: bool = False,
-                 print_all_hours: bool = False, break_text_on_lines: bool = False):
+                 print_all_hours: bool = False):
 
         # we cant divide exact ru_lang and en_lang conditions out of print_all_dates,
         # because we have custom dynamical-sizes settings
@@ -105,7 +105,7 @@ class CalendarDrawer:
             self.min_hour = min_hour_and_max_hour[0]
             self.max_hour = min_hour_and_max_hour[1] + 1
 
-        self.break_text_on_lines = break_text_on_lines
+        
         self.coefficient_y = 2040
         self.interval = self.max_hour - self.min_hour
         self.x_step = 475
