@@ -34,4 +34,11 @@ CalendarDrawer(min_hour_and_max_hour=[9,19])
 ```
 
 #Passed data's format
-Function draw_calendar takes data as format [datetime.datetime, str]. You can see examples in example.py.
+Function draw_calendar takes data as format [datetime.datetime, str]. You can see below of in example/example.py.
+
+```
+data_set_en = [
+        [datetime.datetime.strptime('2022-08-15 11:00:00', '%Y-%m-%d %H:%M:%S'), 'What is love?'],
+        [datetime.datetime.strptime('2022-08-16 13:00:00', '%Y-%m-%d %H:%M:%S'), 'Baby dont hurt me']
+        }
+```
