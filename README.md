@@ -1,7 +1,7 @@
 # PyWeekPlaner 
 
 Just little and cosy tool that will draw you picture or some pictures which show your events on calendar exactly on needed hours in a week view.
-You can choose both 10 hours format like this below: 
+You can choose  10-hours format like this below: 
 ![result0](https://user-images.githubusercontent.com/113614995/190493531-7b221dba-4c61-4d8f-95da-eaa0dd526200.png)
 
 
