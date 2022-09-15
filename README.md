@@ -42,3 +42,8 @@ data_set_en = [
         [datetime.datetime.strptime('2022-08-16 13:00:00', '%Y-%m-%d %H:%M:%S'), 'Baby dont hurt me']
         }
 ```
+
+#Format package returns
+You can take a pictures in 2 formats: saved in folder 'png' or BytesIO.
+
+Made pictures appears in folder /Results with names 'result{0 and etc...}.png'
