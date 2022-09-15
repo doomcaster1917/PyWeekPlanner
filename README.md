@@ -22,7 +22,7 @@ from PyWeekPlanner import CalendarDrawer
 calendar = CalendarDrawer(YOUR SETTINGS OR EMPTY)
 calendar.draw_calendar(YOUR DATA)
 ```
-#settings
+### settings
 
 ```
 CalendarDrawer(print_all_hours=True, lang_ru=True)
@@ -33,7 +33,7 @@ Flag lang_ru means you choose russian language, flag print_all_hours means you c
 CalendarDrawer(min_hour_and_max_hour=[9,19])
 ```
 
-#Passed data's format
+### Passed data's format
 Function draw_calendar takes data as format [datetime.datetime, str]. You can see below of in example/example.py.
 
 ```
